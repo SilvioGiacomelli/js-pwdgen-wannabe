@@ -4,3 +4,4 @@ const color = prompt("What's your favorite color?");
 console.log(firstName, lastName, color);
 const password = firstName + lastName + color;
 console.log(password);
+document.getElementById('code').innerHTML = password;
